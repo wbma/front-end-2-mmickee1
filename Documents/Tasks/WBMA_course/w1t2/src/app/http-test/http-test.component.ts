@@ -28,7 +28,7 @@ export class HttpTestComponent implements OnInit {
   getMedia() {
     this.http.get(this.imageFolder1).subscribe( (data) => {
        console.log(data);
-       this.imgUrl = data[0].filename;
+       this.imgUrl = this.imageFolder + data[0].filename;
        console.log(this.imgUrl);
     });
   }
