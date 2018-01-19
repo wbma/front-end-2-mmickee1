@@ -13,7 +13,7 @@ export class HttpTestComponent implements OnInit {
 
   someData = 'Hello';
   imageFolder = 'http://media.mw.metropolia.fi/wbma/uploads/';
-  imageFolder1 = 'http://media.mw.metropolia.fi/wbma/media';
+  imageFolder1 = 'http://media.mw.metropolia.fi/wbma/media/';
   imgUrl = 'http://placekitten.com/420/300';
 
 
